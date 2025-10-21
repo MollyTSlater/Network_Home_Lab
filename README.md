@@ -1,5 +1,3 @@
-# Network Home Lab
-Repo
+# GithubDemo
 
-Table of Contents
-1 Lab pt 1
+Add some details
