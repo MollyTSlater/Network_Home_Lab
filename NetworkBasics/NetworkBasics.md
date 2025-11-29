@@ -1,6 +1,8 @@
 # Lab One: Learning Basics
 1. Identify Network Interfaces and IP Addresses
 
+![Network_Interfaces_and_IP_Addresses](<Network_Interfaces_and_OP_Addresses.png>)
+
 2. Check Open Ports
 
 3. Analyze Network Connections
