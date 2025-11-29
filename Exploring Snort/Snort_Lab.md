@@ -1,3 +1,4 @@
+```md
 # Lab Three: Exploring Snort
 
 1. **Update the System**
