@@ -1,9 +1,8 @@
-```md
 # Lab Three: Exploring Snort
 
 1. **Update the System**
 
-   Ensure the system is up to date.
+   Ensure the system is up to date using the commands:
 
 ```
    sudo apt update
