@@ -4,10 +4,10 @@
 
    Ensure the system is up to date using the commands:
 
-```
+   ```
    sudo apt update
    sudo apt upgrade -y
-```
+   ```
 
 2. **Install Snort**
 
