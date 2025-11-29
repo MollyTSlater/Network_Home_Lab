@@ -1,11 +1,12 @@
 # Lab Three: Exploring Snort
 
 Step 1: Update the System
-####Ensure the system is up to date using the commands:
+Ensure the system is up to date using the commands:
 
+###
   Command: sudo apt update
   Command: sudo apt upgrade -y
----
+
 
 Step 2: Install Snort
 ![](<>)
