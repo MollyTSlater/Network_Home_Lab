@@ -5,9 +5,10 @@
 
    Ensure the system is up to date.
 
-   ```bash
+```
    sudo apt update
    sudo apt upgrade -y
+```
 
 Step 2: Install Snort
 ![](<>)
