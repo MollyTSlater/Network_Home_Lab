@@ -17,8 +17,12 @@
    sudo apt install snort -y
    ```
    When doing so, be sure to choose a proper Network Interface, for me this was ens33. Also be sure to define your home network under HOME_NET.
-
-Step 3: Configure Snort
+   Use the command below to find the necessary confirguration info if needed:
+   ```
+   ip a
+   ```
+   
+3: **Configure Snort**
 
    We can now configure out snort.conf file, using the command below:
    ```
@@ -34,6 +38,9 @@ Step 4: Update and Manage Snort Rules
    sudo tar -xvzf community-rules.tar.gz
    sudo cp community-rules/* /etc/snort/rules/
    ```
+NEED TO
+Check out the various rule files file in the rules directory. Which rules stick out to you? What is
+the purpose of rules in general?
 
 
 Step 5: Test Snort Configuration
@@ -43,6 +50,10 @@ Step 6: Running Snort in IDS Mode
 ![](<>)
 
 Step 7: Viewing Snort Logs
+Snort logs alerts in the /var/log/snort/ directory. Go to this directory. What files did you find here? 
+
+Do any of them contain any content? Why or why not?
+
 ![](<>)
 
 Step 8: Running Snort as a Daemon
