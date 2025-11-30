@@ -2,11 +2,10 @@
 
 1. **Identify Network Interfaces and IP Addresses**
 
-First, we use _ to install necessary packages:
 ```
 sudo apt install net-tools
 ```
-Once that is complete, we use:
+We want to install net-tools for this project in order to access ifconfig. Net-tools also contains other useful _, such as _.
 
 ```
 ip a
