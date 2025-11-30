@@ -1,7 +1,15 @@
 # Lab One: Learning Basics
-1. Identify Network Interfaces and IP Addresses
+
+1. **Identify Network Interfaces and IP Addresses**
+
+Use the command:
+```
+ip a
+```
 
 ![Network_Interfaces_and_IP_Addresses](<Network_Interfaces_and_OP_Addresses.png>)
+
+This allows us to see
 
 2. Check Open Ports
 
