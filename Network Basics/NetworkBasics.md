@@ -5,12 +5,13 @@
 ```
 sudo apt install net-tools
 ```
-We want to install net-tools for this project in order to access ifconfig. Net-tools also contains other useful _, such as _.
+We want to install net-tools for this project in order to access ifconfig.
 
 ```
 ip a
 ```
 This command displays all network interfaces and their associated IP addresses on our server. 
+
 
 ![Network_Interfaces_and_IP_Addresses](<Network_Interfaces_and_OP_Addresses.png>)
 
@@ -25,6 +26,7 @@ sudo netstat -tuln
 
 3. **Analyze Network Connections**
 
+For starters, lsof stands for  'list open files', and as it indicates this command lists all open network connections. The -i flag indicates all network files, soecifically those with processes associated with them. Next, the -P and the -n flag work together to prevetnt the resolution of port numbers and IP addresses, and this is beneficial by simplifying the output. Both to make it easier for the user to read and easier to generate.
 ```
 sudo lsof -i -P -n
 ```
@@ -33,6 +35,7 @@ sudo lsof -i -P -n
 
 4. Perform Network Scanning with Nmap
 
+This scan checks several items, 
 ```
 sudo nmap -sS -O localhost
 ```
@@ -68,7 +71,7 @@ sudo tcpdump -i eth0
 ```
 ![Network_Traffic](<Network_Traffic.png>)
 
-9. Monitor Network Connections in Real-Time
+9. **Monitor Network Connections in Real-Time**
 
 ```
 sudo watch -n 1 netstat -tulnp
