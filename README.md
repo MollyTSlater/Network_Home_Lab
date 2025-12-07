@@ -6,7 +6,7 @@ This repository is created to show my progress as I complete a home lab revolvin
 
 ## Contents
 
-1) [Network Basics](<Network_Home_Lab/Network Basics/NetworkBasics.md>)
+1) [Network Basics](<Network Basics/NetworkBasics.md>)
 
 2).
 
